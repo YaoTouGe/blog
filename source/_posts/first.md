@@ -30,6 +30,6 @@ B站的
 
 ![test](https://xacu02.baidupcs.com/file/282723864o221f917c8576dae56ae40e?bkt=en-864c1d195a8f2f4123f8f22d6d5c5d7e0b1c9856977fa9e16dd37b7f7a6d12266a356418b4a85229864d16108b860074d637bb9bd6a36bca5b8e3aa0bbc00d7e&fid=2772381170-250528-188088861539946&time=1615955913&sign=FDTAXUGERQlBHSKfWqi-DCb740ccc5511e5e8fedcff06b081203-nVU4chyHm6FBDkS05sJAvfQtSNQ%3D&to=129&size=3878674&sta_dx=3878674&sta_cs=1&sta_ft=jpg&sta_ct=0&sta_mt=0&fm2=MH%2CXian%2CAnywhere%2C%2Cbeijing%2Ccnc&ctime=1615870827&mtime=1615870827&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=3878674&vuk=2772381170&iv=2&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-95e9b6e14b667950e2c0aa7aea3bf1eb3e20b0640d5a9e7ac061feff0f01ef5bea159b6324ff6221aec3b9a95776a30eaa9ce1906d00661c305a5e1275657320&expires=8h&rt=sh&r=717144358&vbdid=3365647290&fin=test.jpg&fn=test.jpg&rtype=1&dp-logid=8669208128570586831&dp-callid=0.1&hps=1&tsl=0&csl=0&fsl=-1&csign=oE6AFZG%2FofVu7knzZuEt6HmjNrg%3D&so=0&ut=1&uter=4&serv=0&uc=516136545&ti=c90c91e6ed22f03829f4c621b2edb08f3ba368559903b263&hflag=30&from_type=1&adg=c_9325d1b9d7dbdafd1e89286a1198bdb5&reqlabel=250528_f_4eae437c11366568f15f4ef1d1a46331_-1_a0f2d67f117179d4e6f2d1bf4e74828c&by=themis)
 
-也可以！不用梯子这一点比OneDrive强，原先以为现在百度网盘只能分享私密链接链接，必须用提取码才能访问原始文件，后来发现原来点击下载的任务链接也可以直接用来作为图床链接！不过就是不知道百度这个链接是否是永久的，虽然我选的是永久有效，链接会不会变就不知道了，至少目前是OK的！
+百度云盘就一言难尽了，现在它现在只支持分享私密链接，也就是必须用提取码才能打开，我尝试了一下，使用提取码后，直接复制下载的链接，短时间内是可以使用的，过了一会儿就不行，看来是一个临时链接。
 
-总结一下就是，OneDrive官方提供获取直接访问原图的链接，但是需要打开OneDrive网页版需要梯子。百度的目前看来直接复制下载链接就能当图床链接，但官方并没有直接提供这个功能，不知道以后会不会有变化。至于B站和微博的，就变数更多了。
+总结起来就是，免费的只有OneDrive能可靠使用，但得有梯子才行。微博和B站的能用，就是不知道长期稳定性如何，万一挂了，除非自己全部有备份，不然就GG。百度盘基本不能用。

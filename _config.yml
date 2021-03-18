@@ -103,7 +103,7 @@ theme: polarbear
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/YaoTouGe/YaoTouGe.github.io.git
+  repo: git@github.com:YaoTouGe/YaoTouGe.github.io.git
   branch: master
 
 archive_generator:
