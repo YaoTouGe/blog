@@ -17,9 +17,10 @@
 
 # Main menu navigation
 menu:
-  # Home: /
-  # Archives: /archives
-  # Tags: /tags
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  About: /about
   # Categories: /categories
   #XXX: /xxx
 
@@ -204,8 +205,8 @@ addThis:
 # Comments System
 # ---------------
 disqus:
-  enable: false
-  #shortname:
+  enable: true
+  shortname: yaotouge
   #count:
 
 # laibili:
