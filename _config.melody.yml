@@ -205,7 +205,7 @@ addThis:
 # Comments System
 # ---------------
 disqus:
-  enable: true
+  enable: false
   shortname: yaotouge
   #count:
 
