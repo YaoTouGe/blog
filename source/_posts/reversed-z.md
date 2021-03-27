@@ -27,8 +27,10 @@ z是一个浮点数，浮点数有一个让人比较头疼的特性，就是其�
 
 我们如果将浮点数的精度在数轴上可视化：
 
-![float-precision](https://bl3301files.storage.live.com/y4mabPnvRJE1sb7uZGfd4s783xXHxZBko-KlJ4oULQBSC6OBj-nwwWHPTTbDrGc67jhBGl8Pf1ojynrLuydb6zW774hRft9s4ZawL33sLXTPnA4wXCRMWEe0LWSLEHbngPxHEMNwKy_us3D8F8BM-Bps5tb6m2SYGlVPwCtUueI3RH4cHUCogbIROWEDEOv-3A1?width=1528&height=142&cropmode=none)
+![float-precision](https://bl3301files.storage.live.com/y4mZs9BaRFkk6zfsKuDVtSFfzseIipDkX0_REULMj33JpkrtclBKsszVN510SzDm4ZcUrIxbRaqEdxxyfEGGNXPXLuUiugXMARdxgECRG9vEc4EVxID-s-mnWwj638fRoU32fbI9MqYxtvEd9CJJlz3Bt17fyx8lM8nslBMBe_dU1PukDoQGA4EpfLcSHvr9t_s?width=1080&height=109&cropmode=none)
 
 对应的，在z-buffer中的精度可视化：
+
+![depth-buffer-precision](https://bl3301files.storage.live.com/y4m3oRe2dinbk00w5sa-30BowrhBQCs4jcyrkhPckcdMp6f3JDUXLx2qZwrE8OfcjATpVLGEMQlPzDmFApk_iBceLoO9s1sMpiihiomsdbBH5TIKWYv5QS7NUXU0MCLxiEez8vC8hzIRmmjKCEloDKJRdqLTzDwMJaOX279O6R-pllDnaheN1sSg89BHO_7LAHu?width=1440&height=720&cropmode=none)
 
 reversed-z 对投影矩阵的改动很简单，乘以一个特意构造的矩阵
