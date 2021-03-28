@@ -25,12 +25,16 @@ z是一个浮点数，浮点数有一个让人比较头疼的特性，就是其�
 
 ![float-bits](https://bl3301files.storage.live.com/y4m12E6E-flIVXMTTnJE9UJD3fkbQSS-T71vOR4zljvCxrtOaiI51cOIuuaNnPBvf68pPku_UhGOm5w-h4izkQM74rhlmq132FeFFrtPPfWlr1rnpbkaIn4xfGD58GvXGLUjO2khu_QZfZFBtUfP5fJqhuYOrMjp3jLIF3c0pH96NYVugQt3zjzpA4luSNMCvXg?width=948&height=204&cropmode=none)
 
-我们如果将浮点数的精度在数轴上可视化：
+我们如果将float32的精度在数轴上可视化，如下图，蓝色的刻度表示每次给底数加上1 << 20后，实际所表示的数值。（模拟每次给底数加1，但那样刻度数量太多，间距也不够明显）：
 
 ![float-precision](https://bl3301files.storage.live.com/y4mZs9BaRFkk6zfsKuDVtSFfzseIipDkX0_REULMj33JpkrtclBKsszVN510SzDm4ZcUrIxbRaqEdxxyfEGGNXPXLuUiugXMARdxgECRG9vEc4EVxID-s-mnWwj638fRoU32fbI9MqYxtvEd9CJJlz3Bt17fyx8lM8nslBMBe_dU1PukDoQGA4EpfLcSHvr9t_s?width=1080&height=109&cropmode=none)
 
-对应的，在z-buffer中的精度可视化：
+仅仅在0~10000区间就可能看出，越接近10000，相邻两个刻度的数值差别越大，精度也就越差。
+
+对应的，在depth-buffer中数值与世界空间z的函数曲线上，将精度可视化：
 
 ![depth-buffer-precision](https://bl3301files.storage.live.com/y4m3oRe2dinbk00w5sa-30BowrhBQCs4jcyrkhPckcdMp6f3JDUXLx2qZwrE8OfcjATpVLGEMQlPzDmFApk_iBceLoO9s1sMpiihiomsdbBH5TIKWYv5QS7NUXU0MCLxiEez8vC8hzIRmmjKCEloDKJRdqLTzDwMJaOX279O6R-pllDnaheN1sSg89BHO_7LAHu?width=1440&height=720&cropmode=none)
+
+原本函数曲线的特点就是，dpeth value的 0
 
 reversed-z 对投影矩阵的改动很简单，乘以一个特意构造的矩阵
