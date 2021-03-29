@@ -47,6 +47,7 @@ TBR将屏幕划分为小tile，framebuffer也是逐tile去绘制，每个tile只
 * Random access，纹理访问的位置难以预测，因此压缩后的纹理要支持随机访问。
 * Compression rate and visual quality，渲染系统是能容忍一定的纹理精度损失的，因此在压缩率和视觉效果之间可以做出一些平衡。
 * Encoding speed，通常压缩过程是离线完成的，因此压缩算法可以不对称，即压缩速度和解压速度不对等。
+
 OpenGL ES 3.0 引入了ETC2的支持，各个GPU厂商也有自己的纹理压缩格式，ARM的MaliGPU支持ASTC格式，PowerVR支持PVRTC格式，NVIDIA的Tegra支持DXT格式。
 除了纹理压缩外，Framebuffer也可以通过压缩节省带宽，原理和纹理压缩类似。Framebuffer的数据存在main memory 中，GPU读入时，传入压缩后的数据，然后GPU端实时解压。写回Framebuffer时则相反，GPU端实时压缩后，将压缩了的数据写入main memory中。
 ### Transaction Elimination
