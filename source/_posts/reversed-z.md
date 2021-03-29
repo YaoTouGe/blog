@@ -46,5 +46,5 @@ $d=-\frac{n}{f-n}+\frac{fn}{f-n}*\frac{1}{z}$
 
 分布比之前合理太多了！world z的near和far区间内，对应到z-buffer上都有较为均匀的精度分布了。实际使用时，由于z-buffer的大小关系反过来了，因此要把depth test改成 greater。如果在OpenGL上应用，还有一个问题，就是OpenGL的ndc的z范围为[-1, 1]，为了能用上reversed-z，还需要支持 glClipControl 这个api，OpenGL4.5以上的版本才有，更低版本只能看是否有对应的扩展了，详细可以看[这篇文章](https://nlguillemot.wordpress.com/2016/12/07/reversed-z-in-opengl)。
 
-最后附上绘图的代码[reverse_z.ipynb](notebooks/reverse_z.ipynb)，为了画这几张图，临时入门了一下matplotlib。
+最后附上绘图的代码[reverse_z.ipynb](/notebooks/reverse_z.ipynb)，为了画这几张图，临时入门了一下matplotlib。
 
