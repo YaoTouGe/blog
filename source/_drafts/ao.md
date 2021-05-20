@@ -5,6 +5,7 @@ tags:
 - unity
 - post process
 ---
+## Ambient Occlusion 的背景知识
 
 环境光遮蔽(AO, ambient occlusion)是提升画面质感相当重要的一个后处理特效，人们感受物体间的位置关系非常依赖光影，宏观的阴影有ShadowMap来解决，微观上的则主要靠AO。最近在学习在Unity中实现AO后处理，找到一篇13年的论文[A comparative study of ssao methods](https://www.gamedevs.org/uploads/comparative-study-of-ssao-methods.pdf)，把当时已有的AO算法做了对比分析（似乎从那个时候到现在，AO算法还是那么几种，可能已经够用了），并且讲清了AO算法发展的来龙去脉，很值得一读。
 
@@ -53,6 +54,10 @@ $AO(p)=\frac{1}{\pi}\int_\Omega V(p,\omega)(n\cdot \omega)d\omega$
 $AO \approx\frac{1}{N}\sum_{n=1}^NV\cdot(n\cdot \omega_n)$
 
 详细可以参照[关于蒙特卡洛积分的资料](https://blog.csdn.net/hellocsz/article/details/94400402)，大概思想是，利用强大数定理，把对随机变量的函数的积分看作是求期望，然后转化为对随机变量序列的和求平均，在N趋近无穷大时，平均值是无穷接近于期望值的。
+
+## Ambient Obscurance
+
+
 
 ### AlchemyAO:
  https://casual-effects.com/research/McGuire2011AlchemyAO/VV11AlchemyAO.pdf
