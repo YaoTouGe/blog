@@ -4,9 +4,9 @@
 # ---------------
 theme_color:
   enable: true
-  main: "#000"
+  main: "#76B900"
   paginator: "#000"
-  button_hover: "#49B1F5"
+  button_hover: "#000"
   text_selection: "#000"
   link_color: "#000"
   hr_color: "#000"
